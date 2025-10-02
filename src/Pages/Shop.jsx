@@ -38,7 +38,7 @@ export default function Shop({ addToCart }) {
   );
 
   return (
-    <div>
+    <div className="bg-green-100 min-h-screen p-4">
       <SearchBar search={search} setSearch={setSearch} />
       <Filters sort={sort} setSort={setSort} />
 
